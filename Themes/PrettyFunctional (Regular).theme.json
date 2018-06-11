@@ -4,10 +4,10 @@
     "author": [
         {
             "name": "NSSynapse",
-            "comment": "For better results, set The Archive's font to 'HelveticaNeue, 13pt' or another variable-width font of choice. For best results, download Apple's San Francisco font and set The Archive's font to 'SFProText-Regular, 13pt'."
+            "comment": "For better results, set The Archive's font to 'HelveticaNeue, 13pt' or another variable-width font of choice. For best results, download Apple's San Francisco font and set The Archive's font to 'SFProText-Regular, 13pt'. This theme does not yet get updated via The Archive's Theme Updater, but whenever you see an update for PrettyFunctional (Basic), an updated version of PrettyFunctional (Regular) will be available at: https://forum.zettelkasten.de/discussion/222/theme-prettyfunctional-regular/"
         }
     ],
-    "version": "1.2",
+    "version": "1.3",
 
     "editor": {
         "backgroundColor": "#fafafa",
@@ -15,7 +15,30 @@
         "highlight": {
             "backgroundColor": "#b4d6fd",
             "unfocusedBackgroundColor": "#d7e7f4"
+        }
+    },
+    
+    "savedSearchesSidebar": {
+        "color": "#fafafa",
+        "border": true,
+        "backgroundColor": "#606f9f",
+        "highlightedBackgroundColor": "#405ebf",
+        "iconColors": {
+            "default": "#fafafa"
+        }
+    },
+
+    "resultsList": {
+        "color": "#323232",
+        "backgroundColor": "#fafafa",
+        "alternateBackgroundColor": "#e9e9e9",
+        "selection": {
+            "color": "#fafafa",
+            "backgroundColor": "#405ebf",
+            "unfocusedColor": "#fafafa",
+            "unfocusedBackgroundColor": "#606f9f"
         },
+        "border": true
     },
 
     "styles": {
@@ -53,18 +76,18 @@
         },
 
         "codeBlock": {
-        	"font": { "name": "Monaco", "size": 12 },
-        	"color": "#425257",
-        	"backgroundColor": "#f5f5f5"
-    	},
+            "font": { "name": "Monaco", "size": 12 },
+            "color": "#425257",
+            "backgroundColor": "#f5f5f5"
+        },
         "inlineCode": {
-        	"font": { "name": "Monaco", "size": 12 },
-        	"color": "#425257",
-        	"backgroundColor": "#f5f5f5"
-    	},
+            "font": { "name": "Monaco", "size": 12 },
+            "color": "#425257",
+            "backgroundColor": "#f5f5f5"
+        },
         "blockquote": {
-        	"color": "#6f582a",
-        	"backgroundColor": "#f5f5f5"
+            "color": "#6f582a",
+            "backgroundColor": "#f5f5f5"
         },
         "list": {
             "syntax": { "color" : "#323232" }
@@ -78,13 +101,13 @@
         },
 
         "image": {
-            "color": "#555555"
+            "color": "#737373"
         },
         "link": {
             "color": "#244bc2"
         },
         "referenceDefinition": {
-            "color": "#555555"
+            "color": "#737373"
         },
 
         "comment": {
